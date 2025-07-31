@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crowley's Corner</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1b1c1d;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3e1f47;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #2c2f33;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #ffc857;
+      border-bottom: 1px solid #555;
+      padding-bottom: 0.25rem;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crowley's Corner</h1>
+    <p>Games. Movies. 3D Printing. Creation. Coaching. Magic.</p>
+  </header>
+  <nav>
+    <a href="#games">Games</a>
+    <a href="#media">Movies & Anime</a>
+    <a href="#dev">Game Dev</a>
+    <a href="#print">3D Printing</a>
+    <a href="#coach">Positive Coaching</a>
+  </nav>
+  <main>
+    <section id="games">
+      <h2>Games I'm Playing</h2>
+      <p>Here I’ll share what I’m currently playing, future wishlist games, and thoughts about game mechanics or design ideas.</p>
+    </section>
+    <section id="media">
+      <h2>Movies, Anime & Manga</h2>
+      <p>My latest reviews, rankings, and fandom rants about the visual stories I love.</p>
+    </section>
+    <section id="dev">
+      <h2>Game Dev Logs</h2>
+      <p>Progress on my games, experiments with Godot, and lessons learned from coding or designing.</p>
+    </section>
+    <section id="print">
+      <h2>3D Printing Forge</h2>
+      <p>Photos, models, and stories from my creative printer side—expect dragons and gadgets.</p>
+    </section>
+    <section id="coach">
+      <h2>Positive Coaching Corner</h2>
+      <p>Uplifting insights, mental boosts, and friendly nudges for anyone trying to level up their life journey.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Crowley's Corner | Designed by Nikita & Quillspark ✨</p>
+  </footer>
+</body>
+</html>
