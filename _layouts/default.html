@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1b1c1d;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3e1f47;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #2c2f33;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0.5rem 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crowley's Corner</h1>
+    <p>Where the Guild gathers and legends are born</p>
+  </header>
+  <nav>
+    <a href="/CrowleysCorner/">Home</a>
+    <a href="/CrowleysCorner/games.md">Games</a>
+    <a href="/CrowleysCorner/media.md">Movies & Anime</a>
+    <a href="/CrowleysCorner/dev.md">Game Dev</a>
+    <a href="/CrowleysCorner/print.md">3D Printing</a>
+    <a href="/CrowleysCorner/coach.md">Coaching</a>
+    <a href="/CrowleysCorner/fans.md">Supporters</a>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>© 2025 Crowley's Corner | Designed by Nikita & Quillspark ✨</p>
+  </footer>
+</body>
+</html>
